@@ -1,0 +1,126 @@
+body {
+	display: block;
+	width: auto;
+	height:auto;
+	overflow: hidden;
+}
+.wrapper {
+	min-width: 500px;
+	display: block;
+	overflow: hidden;
+}
+
+#solid {
+	display: block;
+	margin-left: 75px;
+	color: rgba(0,0,0,0.1);
+	font-family: helvetica;
+	font-size: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 6px;
+}
+#montext {
+	display: block;
+	margin-left: 50px;
+	width: 750px;
+	margin-top: 14%;
+	line-height: 0.8;
+	font-family: helvetica;
+	font-size: 2000%;
+	font-weight: bold;
+}
+
+
+.clr {
+	clear: both;
+}
+
+.form {
+	display: block;
+	margin-left : 65px;
+	margin-top : 30px;
+}
+
+.form input[type="date"] {
+	display: block;
+	float: left;
+	width: 300px;
+	height: 30px;
+	border-top:none;
+	border-right:none;
+	border-left:none;
+	border-bottom: 1px rgba(0,0,0,0.1) solid;
+	font-family: helvetica;
+	font-size: 10px;
+	text-transform: uppercase;
+	color:rgba(0,0,0,0.1);
+}
+
+.form input[type="date"]:focus {
+	outline: 0;s
+}
+
+
+input::-webkit-outer-spin-button,
+		input::-webkit-inner-spin-button {
+		-webkit-appearance: none;
+		margin: 0;
+}
+::-webkit-input-placeholder { 
+	color:rgba(0,0,0,0.2);
+	font-family: helvetica;
+	font-size: 10px;
+	text-transform: uppercase;
+	color:rgba(0,0,0,0.1); 
+}
+
+::-moz-placeholder { 
+	color:rgba(0,0,0,0.2); 
+	font-family: helvetica;
+	font-size: 10px;
+	text-transform: uppercase;
+	color:rgba(0,0,0,0.1);
+}
+
+:-ms-input-placeholder { 
+	color:rgba(0,0,0,0.2); 
+	font-family: helvetica;
+	font-size: 10px;
+	text-transform: uppercase;
+	color:rgba(0,0,0,0.1);
+} 
+
+input:-moz-placeholder { 
+	color:rgba(0,0,0,0.2); 
+	font-family: helvetica;
+	font-size: 10px;
+	text-transform: uppercase;
+	color:rgba(0,0,0,0.1);
+}
+
+#submit{
+	float: left;
+	display: block;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin-left: 10px;
+	border : none;
+	background : url('../img/noun_15029.svg') no-repeat;
+	background-size: 70%;
+	background-position: -5px 6px;
+}
+
+
+.form input[type="submit"]:hover {
+	background : url('../img/noun_15028.svg') no-repeat !important;
+	background-size: 70% !important;
+	background-position: -5px 6px !important;
+	transition : opacity 3s ease-out;
+}
+
+.form input[type="submit"]:focus {
+	outline: 0;
+}
+
